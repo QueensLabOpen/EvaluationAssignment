@@ -47,7 +47,7 @@ Examples:
 ***Inspiration***
 
 
-Create a credit card form for submitting payments. Use either React or Vue and bundle it using either webpack or parcel and deploy it to a cloud provider of your choosing. If you're unsure we can recommend [Netlify](https://www.netlify.com/) or [Heroku](https://www.heroku.com). Focus should be on validation and ease of use.
+Create a credit card form for submitting payments. Use either React, Vue or Svelte and bundle it using either webpack or parcel and deploy it to a cloud provider of your choosing. If you're unsure we can recommend [Netlify](https://www.netlify.com/) or [Heroku](https://www.heroku.com). Focus should be on validation and ease of use.
 - Consider what we can validate / detect without making a request to the payment server.
 - Include unit / e2e tests
 - Bundle your module with webpack or parcel.
