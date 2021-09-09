@@ -4,18 +4,19 @@
 \__X \__/ |___ |___ | \| .__/ |___ /~~\ |__) 
 ```
 
-**Code Challenge**
+**Frontend - Evaluation Assignment**
 ============
 
-**Part 1 - Algorithms**
+**Algorithms**
+--------
 
-**1.1**
+**Text**
 
 Write a function that finds and removes instances of four identical consecutive lowercase letters. The function should delete as a few letters as possible.
 
-Assume that the maximum length of the string is 150 000 however please ellaborate on changes you would do if the maximum length would be 20 million or higher?
+Assume that the maximum length of the string is 150 000 however please elaborate on changes you would do if the maximum length would be 20 million or higher?
 
-Examples: 
+Examples:
 ``` 
 "ffdttttyy" should return "ffdtttyy"
 ```
@@ -24,7 +25,7 @@ Examples:
 "iiikigggg" should return "iiikiggg"
 ```
 
-**1.2**
+**Arrays**
 
 Write a function that takes an array of numbers and returns the maximum sum of two numbers whose digits have an odd sum.
 
@@ -40,14 +41,15 @@ Examples:
 ```
 
 
-**Part 2 - Components**
-
-![](inspiration.gif)
+**Components**
+--------
+Create a credit card form for submitting payments. Focus should be on validation and ease of use.
+- Consider what can be validated/detected without making a request to the payment server.
+- Include unit/e2e tests.
+- Use React, Vue or Svelte.
+- Bundle your module with webpack or parcel.
+- Deploy the solution to a cloud provider of your choosing. If you're unsure we can recommend [Netlify](https://www.netlify.com/) or [Heroku](https://www.heroku.com).
 
 ***Inspiration***
 
-
-Create a credit card form for submitting payments. Use either React or Vue and bundle it using either webpack or parcel and deploy it to a cloud provider of your choosing. If you're unsure we can recommend [Netlify](https://www.netlify.com/) or [Heroku](https://www.heroku.com). Focus should be on validation and ease of use.
-- Consider what we can validate / detect without making a request to the payment server.
-- Include unit / e2e tests
-- Bundle your module with webpack or parcel.
+![](inspiration.gif)
